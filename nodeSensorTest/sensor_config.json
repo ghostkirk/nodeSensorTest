@@ -1,0 +1,79 @@
+﻿{
+	"Sensors": {
+		"Temp": [
+			{
+				"ID": "1", 
+				"Type": "Thermocouple",
+				"Model": "K Type",
+				"Name": "Tank 1",
+				"Location": "Boiler 1",
+				"SN": "665561",
+				"DOA": "D",
+				"GPIO": "GPIO_18",
+				"Date": "",
+				"Time": "",
+				"Measurement": "C",
+				"Adjustment": "0",
+				"Reading": "0"
+			},
+			{
+				"ID": "2", 
+				"Type": "Thermocouple",
+				"Model": "K Type",
+				"Name": "Tank 2",
+				"Location": "Tank 2",
+				"SN": "665562",
+				"GPIO": "GPIO_19",
+				"Date": "",
+				"Time": "",
+				"Measurement": "C",
+				"Adjustment": "0",
+				"Reading": "0"
+			},
+			{
+				"ID": "3", 
+				"Type": "Thermocouple",
+				"Model": "K Type",
+				"Name": "Hot Coil",
+				"Location": "Hot Side Coil",
+				"SN": "665563",
+				"GPIO": "GPIO_20",
+				"Date": "",
+				"Time": "",
+				"Measurement": "C",
+				"Adjustment": "0",
+				"Reading": "0"
+			},
+			{
+				"ID": "4", 
+				"Type": "Thermocouple",
+				"Model": "K Type",
+				"Name": "Cold Coil",
+				"Location": "Cold Side Coil",
+				"SN": "665564",
+				"GPIO": "GPIO_21",
+				"Date": "",
+				"Time": "",
+				"Measurement": "C",
+				"Adjustment": "0",
+				"Reading": "0"
+			}
+		],
+		"Current":[
+			{
+				"ID": "1", 
+				"Type": "DC",
+				"Model": "Clamp",
+				"Name": "Output",
+				"Location": "Output",
+				"SN": "n/a",
+				"GPIO": "GPIO_9",
+				"Date": "",
+				"Time": "",
+				"Measurement": "V",
+				"Adjustment": "0",
+				"Reading": "0"
+			}
+		]
+	}
+}

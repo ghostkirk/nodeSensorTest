@@ -1,0 +1,13 @@
+{
+  "name": "node-sensor-test",
+  "version": "0.0.0",
+  "description": "nodeSensorTest",
+  "main": "app.js",
+  "author": {
+    "name": "John"
+  },
+  "dependencies": {
+    "async": "^2.1.4",
+    "jsonfile": "^2.4.0"
+  }
+}
