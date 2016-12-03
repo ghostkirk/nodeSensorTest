@@ -18,7 +18,7 @@ function readJ(filePath) {
             return data;
         }
         catch (err) {
-            console.log("There has been an error parsing your JSON.");
+            console.log("There has been an error parsing your JSON. - err="+err);
             process.exit(1);
         };
     };
