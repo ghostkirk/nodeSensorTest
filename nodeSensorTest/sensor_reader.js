@@ -1,8 +1,7 @@
 ﻿'use strict'
-const util = require('util');
 
-const random = require("./local_modules/read_sensors.js");
-const rw_file = require("./local_modules/rw_file.js");
+const random = require("./local_modules/read_sensors");
+const rw_file = require("./local_modules/rw_file");
 const log = require("./local_modules/epiclog");
 
 //const writeJSON = require("./local_modules/write_json.js");
