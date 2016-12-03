@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "async": "^2.1.4",
+    "chalk": "latest",
     "jsonfile": "^2.4.0"
   }
 }
