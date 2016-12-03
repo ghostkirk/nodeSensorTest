@@ -10,9 +10,10 @@ const low = 10;
 const high = 90;
 const configFile = "./sensor_config.json";
 
-console.log("Asking to read JSON file");
-var sensorConfigData = rw_file.readJ(configFile);
-console.log("Returned from reading file");
+var sensorData = rw_file.readJ(configFile);
+
+//read_sensors(sensorData
+
 
 
 function loop() {

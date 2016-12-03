@@ -30,13 +30,12 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="local_modules\rw_files_as.js" />
     <Compile Include="local_modules\read_sensors.js" />
     <Compile Include="local_modules\rw_file.js" />
     <Compile Include="sensor_reader.js" />
-    <Content Include="sensor_config.json" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="sensor_config.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="local_modules\" />

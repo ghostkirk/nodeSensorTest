@@ -5,26 +5,29 @@
 const fs = require("fs");
 const jsonfile = require("jsonfile");
 
+var content;
 
 function readJ(filePath) {
-    jsonfile.readFile(filePath, function (err, data) {
-        if (err) {
-            console.log("Error reading File");
-            return callback(err);
+
+    if (fs.existsSync(filePath)) {
+        console.log("File loaded fine.");
+
+        try {
+            var data = jsonfile.readFileSync(filePath);
+            console.log(data);
+            return data;
         }
-        console.log("Read JSON file OK");
-        return callback(null, JSON.parse(data));
-    });
+        catch (err) {
+            console.log("There has been an error parsing your JSON.");
+            process.exit(1);
+        };
+    };
 };
 
 
-function writeJ(filePath, callback) {
-    jsonfile.readFile(filePath, data, function (err) {
-        if (err) {
-            return callback(err);
-        }
-        return callback(null);
-    });
+
+function writeJ(filePath, data) {
+
 };
 
 function readC(filePath, callback) {
